@@ -5,8 +5,13 @@ void matrix_init_kb(void) {
 	// runs once when the firmware starts up
 	matrix_init_user();
 
-    int i=9000;
+ /*   int i=6000;
     for(;i>0;--i){
-        uprintf("Booting CKEY in %d\r\n", i);
+        #if VIA_ENABLE
+            uprintf("Booting VIA:CKEY in %d\r\n", i);
+        #else
+            uprintf("Booting NO_VIAL:CKEY in %d\r\n", i);
+        #endif
     }
+*/
 }
