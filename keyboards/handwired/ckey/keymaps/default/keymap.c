@@ -7,8 +7,8 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
       KC_2,      KC_3,    KC_4,    KC_5, \
       KC_Q,      KC_W,    KC_E,    KC_1, \
       KC_A,      KC_S,    KC_D,    KC_ENT, \
-      KC_LSFT,   KC_SLEP,    KC_VOLD,  KC_VOLU \
-  ),
+      KC_LSFT,   KC_SLEP,    KC_MUTE,  KC_SPC \
+  ),  //KC_VOLD, KC_VOLU
   [1] = LAYOUT( /* CMD60 - GameMode */
       KC_ESC,  KC_1,    KC_2,    KC_3, \
       KC_4,    KC_5,    KC_6,    KC_7, \
