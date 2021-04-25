@@ -5,6 +5,7 @@ void matrix_init_kb(void) {
 	// runs once when the firmware starts up
 	matrix_init_user();
 
+    uprintf("Welcome to Logan Keyboard v1.0!!!!");
  /*   int i=6000;
     for(;i>0;--i){
         #if VIA_ENABLE
