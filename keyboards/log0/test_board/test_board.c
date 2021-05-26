@@ -1,4 +1,4 @@
-#include "lkey_1b.h"
+#include "test_board.h"
 
 void matrix_init_kb(void) {
 	// put your keyboard start-up code here

@@ -1,3 +1,5 @@
+make log0/test_board:via:dfu
+
 # CMD60
 
 ![CMD60](https://i.imgur.com/r9LA6Lx.jpg)

@@ -25,11 +25,11 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #define PRODUCT_ID      0x4447
 #define DEVICE_VER      0x0001
 #define MANUFACTURER    LG
-#define PRODUCT         LG01
+#define PRODUCT         Log0-Test
 
 /* key matrix size */
-#define MATRIX_ROWS 6
-#define MATRIX_COLS 4
+#define MATRIX_ROWS 2
+#define MATRIX_COLS 1
 
 /*
  * Keyboard Matrix Assignments
@@ -41,8 +41,8 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
  *                  ROW2COL = ROW = Anode (+), COL = Cathode (-, marked on diode)
  *
 */
-#define MATRIX_ROW_PINS { C7, C6, D3, D2, D1, D6}
-#define MATRIX_COL_PINS { B0, B1, B4, B5 }
+#define MATRIX_ROW_PINS { B1, B2}
+#define MATRIX_COL_PINS { B3 }
 #define UNUSED_PINS
 
 /* COL2ROW or ROW2COL */
