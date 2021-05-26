@@ -29,7 +29,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 /* key matrix size */
 #define MATRIX_ROWS 6
-#define MATRIX_COLS 4
+#define MATRIX_COLS 14
 
 /*
  * Keyboard Matrix Assignments
@@ -40,9 +40,36 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
  * DIODE_DIRECTION: COL2ROW = COL = Anode (+), ROW = Cathode (-, marked on diode)
  *                  ROW2COL = ROW = Anode (+), COL = Cathode (-, marked on diode)
  *
+ *
+
+COL0 = 8,  D1
+COL1 = 11, C8
+COL2 = 4,  B7
+COL3 = 5,  D0
+COL4 = 23, F7
+COL5 = 22, A6/B6
+COL6 = 21, A7/B5
+COL7 = 20, A8/B4
+COL8 = 19, A9/D7
+COL9 = 18, A10/D6
+COL10 = 17, A11/D4
+COL11 = 24, A4/F6
+COL12 = 27, A1/F1
+COL13 = 26, A2/F4
+
+ROW0 12 C7
+ROW1 13 D5
+ROW2 28 C0
+ROW3 16  <--- RESET PIN!!!
+ROW4 3 B1
+ROW5 2 B0
 */
-#define MATRIX_ROW_PINS { C7, C6, D3, D2, D1, D6}
-#define MATRIX_COL_PINS { B0, B1, B4, B5 }
+
+#define MATRIX_ROW_PINS { C7, D5, C0, C0, B1, B0}
+//#define MATRIX_COL_PINS { D1, C8, B7, D0, F7, A6, A7, A8, A9, A10, A11, A4, A1, A2}
+#define MATRIX_COL_PINS { D1, D1, B7, D0, F7, B6, B5, B4, D7, D6, D4, F6, F1, F4}
+
+
 #define UNUSED_PINS
 
 /* COL2ROW or ROW2COL */
