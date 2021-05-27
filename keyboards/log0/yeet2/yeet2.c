@@ -6,6 +6,23 @@ void matrix_init_kb(void) {
 	matrix_init_user();
 
     uprintf("Welcome to Logan Keyboard v1.0!!!!");
+
+#if 1
+#ifdef BACKLIGHT_ENABLE
+    backlight_enable();
+    backlight_level(5);
+#endif
+#ifdef RGBLIGHT_ENABLE
+    rgblight_enable();
+    rgblight_sethsv(0, 255, 255);
+
+//#ifdef RGBLIGHT_ANIMATIONS
+
+    rgblight_mode(RGBLIGHT_MODE_RAINBOW_SWIRL + 2);
+//#endif
+#endif
+#endif
+
  /*   int i=6000;
     for(;i>0;--i){
         #if VIA_ENABLE

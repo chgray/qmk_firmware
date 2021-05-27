@@ -2,7 +2,9 @@
   "name": "LG-01",
   "vendorId": "0x4c47",
   "productId": "0x4447",
-  "lighting": "none",
+  "lighting": {
+    "extends": "qmk_rgblight"
+  },
   "matrix": {"rows": 6, "cols": 14},
   "layouts": {
     "keymap":

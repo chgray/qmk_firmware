@@ -76,9 +76,17 @@ ROW5 2 B0
 /* COL2ROW or ROW2COL */
 #define DIODE_DIRECTION COL2ROW
 
-// #define BACKLIGHT_PIN B7
-// #define BACKLIGHT_BREATHING
-// #define BACKLIGHT_LEVELS 3
+
+#define RGB_DI_PIN F5
+#define RGBLIGHT_ANIMATIONS
+#define RGBLED_NUM 52   // Number of LEDs
+
+//#define VIA_CUSTOM_LIGHTING_ENABLE
+
+
+//#define BACKLIGHT_PIN F5
+//#define BACKLIGHT_BREATHING
+//#define BACKLIGHT_LEVELS 3
 
 /* Debounce reduces chatter (unintended double-presses) - set 0 if debouncing is not needed */
 #define DEBOUNCE 5
