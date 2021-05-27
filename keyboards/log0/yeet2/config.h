@@ -43,9 +43,9 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
  *
 
 COL0 = 8,  D1
-COL1 = 11, C8
-COL2 = 4,  B7
-COL3 = 5,  D0
+COL1 = 11, C6
+COL2 = 4,  B2
+COL3 = 5,  B3
 COL4 = 23, F7
 COL5 = 22, A6/B6
 COL6 = 21, A7/B5
@@ -60,14 +60,14 @@ COL13 = 26, A2/F4
 ROW0 12 C7
 ROW1 13 D5
 ROW2 28 C0
-ROW3 16  <--- RESET PIN!!!
+ROW3 16  <--- RESET PIN!!! (D2)
 ROW4 3 B1
 ROW5 2 B0
 */
 
-#define MATRIX_ROW_PINS { C7, D5, C0, C0, B1, B0}
+#define MATRIX_ROW_PINS { C7, D5, F0, D2, B1, B0}
 //#define MATRIX_COL_PINS { D1, C8, B7, D0, F7, A6, A7, A8, A9, A10, A11, A4, A1, A2}
-#define MATRIX_COL_PINS { D1, D1, B7, D0, F7, B6, B5, B4, D7, D6, D4, F6, F1, F4}
+#define MATRIX_COL_PINS { D1, C6, B2, B3, F7, B6, B5, B4, D7, D6, D4, F6, F1, F4}
 
 
 #define UNUSED_PINS
