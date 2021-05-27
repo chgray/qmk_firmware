@@ -65,6 +65,7 @@ ROW4 3 B1
 ROW5 2 B0
 */
 
+
 #define MATRIX_ROW_PINS { C7, D5, F0, D2, B1, B0}
 //#define MATRIX_COL_PINS { D1, C8, B7, D0, F7, A6, A7, A8, A9, A10, A11, A4, A1, A2}
 #define MATRIX_COL_PINS { D1, C6, B2, B3, F7, B6, B5, B4, D7, D6, D4, F6, F1, F4}
