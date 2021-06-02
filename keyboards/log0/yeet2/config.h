@@ -79,7 +79,7 @@ ROW5 2 B0
 
 #define RGB_DI_PIN F5
 #define RGBLIGHT_ANIMATIONS
-#define RGBLED_NUM 52   // Number of LEDs
+#define RGBLED_NUM 84   // Number of LEDs
 
 //#define VIA_CUSTOM_LIGHTING_ENABLE
 
