@@ -1,7 +1,7 @@
 {
   "name": "LG-01",
   "vendorId": "0x4c47",
-  "productId": "0x4447",
+  "productId": "0x4347",
   "lighting": {
     "extends": "qmk_rgblight"
   },
